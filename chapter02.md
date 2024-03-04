@@ -118,6 +118,9 @@ Hello = 48 65 6C 6C 6F = 01001000 01100101 01101100 01101100 01101111
 
 ## Exercise
 
+The table shows three inputs for a logical expression.
+Complete the truth table output for the expression (A OR B) AND C
+
 | A   | B   | C   | Output |
 | --- | --- | --- | ------ |
 | 0   | 0   | 0   | 0      |
