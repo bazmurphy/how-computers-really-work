@@ -32,7 +32,9 @@
 - To avoid confusion, binary numbers in the book are written with a "0b" prefix, indicating binary representation (e.g., 0b10 represents two in binary, while 10 without a prefix represents ten in decimal).
 
 ![](/images/01-03-01.png)
+
 ![](/images/01-03-02.png)
+
 ![](/images/01-03-03.png)
 
 ### Exercise

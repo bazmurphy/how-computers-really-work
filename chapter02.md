@@ -4,7 +4,7 @@
 
 - Data in computers is stored as bits, including not only numbers but also various forms of data like text, images, audio, etc.
 
-### 02.01.01 Digital Text
+### 02.01.01 - Digital Text
 
 - Text can be represented in binary using a character set, typically including alphanumeric symbols and punctuation marks.
 - For English text, around 100 characters need representation, including uppercase and lowercase letters, punctuation marks, spaces, and digits.
@@ -12,7 +12,7 @@
 - While there are standard ways of representing text in binary (like ASCII or Unicode), custom encoding schemes can also be devised as long as the software understands them.
 - Encoding involves translating data into a digital format, while decoding involves interpreting that digital data.
 
-### 02.01.02 ASCII
+### 02.01.02 - ASCII
 
 - ASCII (American Standard Code for Information Interchange) is a standard format for representing text digitally.
 - It represents 128 characters using 7 bits per character, commonly stored using a full byte (8 bits).
@@ -58,7 +58,7 @@ Hello = 48 65 6C 6C 6F = 01001000 01100101 01101100 01101100 01101111
 
 ![](/images/02-01-04.png)
 
-### 02.01.05 Interpreting Binary Data
+### 02.01.05 - Interpreting Binary Data
 
 - Binary value: 011000010110001001100011
 - Potential interpretations: ASCII text string "abc", 24-bit RGB color, positive integer (6,382,179)
