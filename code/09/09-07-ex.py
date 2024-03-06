@@ -11,6 +11,9 @@ a = x & y
 # a = 0001
 # a = 1
 
+print(a)
+# 1
+
 # Bitwise OR : either bits are 1 => 1 otherwise 0
 b = x | y
 # x = 1011
@@ -18,9 +21,15 @@ b = x | y
 # b = 1111
 # b = 15
 
+print(b)
+# 15
+
 # Bitwise XOR : both bits MUST be different => 1 otherwise 0
 c = x ^ y
 # x = 1011
 # y = 0101
 # c = 1110
 # c = 14
+
+print(c)
+# 14
