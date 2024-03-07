@@ -33,7 +33,7 @@ Hello = 48 65 6C 6C 6F = 01001000 01100101 01101100 01101100 01101111
 
 ![](/images/02-01-01.png)
 
-### 02.01.03 Digital Colors and Images
+### 02.01.03 - Digital Colors and Images
 
 - Introduction to digital representation of colors and images
 - Comparison to representing text and numbers in binary
@@ -46,7 +46,7 @@ Hello = 48 65 6C 6C 6F = 01001000 01100101 01101100 01101100 01101111
 
 ![](/images/02-01-02.png)
 
-### 02.01.04 Approaches for Representing Colors and Images
+### 02.01.04 - Approaches for Representing Colors and Images
 
 - Grayscale images commonly use 8 bits per pixel, allowing for 256 shades of gray, ranging from 0 (black) to 255 (white).
 - RGB (Red, Green, Blue) is a method used for representing colors beyond shades of gray, with each color component represented by 8 bits, totaling 24 bits for the overall color.

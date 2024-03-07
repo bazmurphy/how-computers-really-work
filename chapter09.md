@@ -365,28 +365,20 @@ else
 ### 09.08.02 - Looping
 
 - Looping in Programming:
-
   - Allows repetitive actions until certain conditions are met.
   - Utilizes constructs like `while` and `for` loops.
-
 - `while` Loop:
-
   - Runs code repeatedly until a condition is no longer met.
   - Example in Python and C to print numbers from 1 to 20.
   - Variable `n` initialized to 1, incremented until it reaches 21.
-
 - `for` Loop:
-
   - Iterates over a range of values or collection of items.
   - Cleaner alternative for incrementing values.
   - Example in C printing numbers from 1 to 10, and Python printing animal names from a list.
-
 - Python `for` Loop:
-
   - Allows iteration over a collection of values.
   - Example: Printing each animal name in a list.
   - Uses `for animal in animal_list:` syntax to iterate over `animal_list`.
-
 - C `for` Loop:
   - Declares loop conditions in a single line.
   - Example: Printing numbers from 1 to 10.

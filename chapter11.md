@@ -37,25 +37,22 @@
 ## 11.02 - The Internet Protocol Suite
 
 - **Introduction to Internet Protocol Suite**:
-
   - Standardizes communication on the internet for all devices.
   - Foundational protocols: TCP and IP (TCP/IP).
   - Operates in a layered model known as a network stack.
   - Encapsulation simplifies overall design.
-
 - **Four-Layer Model**:
-
-- The Internet Protocol Suite (TCP/IP) standardizes communication on the internet.
-- TCP/IP consists of foundational protocols: Transmission Control Protocol (TCP) and Internet Protocol (IP).
-- Network protocols operate in layered models, forming network stacks.
-- The TCP/IP model comprises four layers: link layer, internet layer, transport layer, and application layer.
-- The OSI model, with seven layers, is also used but TCP/IP is the basis for the internet.
-- Each layer in the TCP/IP model has specific responsibilities.
-- Protocols in adjacent layers communicate with each other.
-- Network transmissions pass through layers: application, transport, internet, and link.
-- Different networking hardware uses protocols from various layers.
-- A network request flows through layers from the client to the server.
-- The request is formatted and interpreted according to application layer protocols.
+  - The Internet Protocol Suite (TCP/IP) standardizes communication on the internet.
+  - TCP/IP consists of foundational protocols: Transmission Control Protocol (TCP) and Internet Protocol (IP).
+  - Network protocols operate in layered models, forming network stacks.
+  - The TCP/IP model comprises four layers: link layer, internet layer, transport layer, and application layer.
+  - The OSI model, with seven layers, is also used but TCP/IP is the basis for the internet.
+  - Each layer in the TCP/IP model has specific responsibilities.
+  - Protocols in adjacent layers communicate with each other.
+  - Network transmissions pass through layers: application, transport, internet, and link.
+  - Different networking hardware uses protocols from various layers.
+  - A network request flows through layers from the client to the server.
+  - The request is formatted and interpreted according to application layer protocols.
 
 ![](/images/11-02-01.png)
 
@@ -182,35 +179,27 @@
 ## 11.03 - A Trip Through the Internet
 
 - **Scenario Setup**:
-
   - Client device connected to Wi-Fi network.
   - Client connected to internet via router.
   - Server connected to internet via switch and router.
   - Client requests web page hosted on server.
-
 - **Data Transmission from Client to Server**:
-
   - Client's web browser forms HTTP request for server.
   - HTTP request handed to TCP/IP software stack.
   - HTTP payload encapsulated in TCP segment.
   - TCP segment encapsulated in IP packet.
   - IP packet encapsulated in frame with local router's MAC address.
   - Frame transmitted wirelessly by client's Wi-Fi hardware.
-
 - **Routing through Internet**:
-
   - Frame received by wireless access point, sent to router.
   - Router examines packet, determines destination IP.
   - Packet encapsulated in new frame, sent to next router.
   - Routing continues through multiple routers until reaching server's subnet router.
-
 - **Reaching the Server**:
-
   - Last router encapsulates packet with server's MAC address.
   - Switch forwards frame based on MAC address.
   - Server receives frame, passes TCP/IP packet to software stack.
   - HTTP data handed to process listening on TCP port 80.
-
 - **Server Response and Reverse Transmission**:
   - Web server software handles request, replies to client.
   - Process repeats in reverse order for response transmission.
@@ -230,20 +219,14 @@
 ### 11.04.01 - Dynamic Host Configuration Protocol
 
 - **IP Addressing Basics**:
-
   - Every host on the internet requires an IP address, subnet mask, and router IP (default gateway) for communication.
   - IP addresses can be assigned statically or dynamically.
-
 - **Static vs. Dynamic IP Assignment**:
-
   - Static IP: Manual configuration, requiring expertise and validation.
   - Dynamic IP: Utilizes DHCP for automatic assignment without user intervention.
-
 - **Dynamic Host Configuration Protocol (DHCP)**:
-
   - DHCP automates IP address assignment.
   - DHCP server on the network manages a pool of IP addresses for assignment.
-
 - **DHCP Workflow**:
   - Device connects to the network and broadcasts DHCP discovery message.
   - DHCP server responds with an offer of an IP address.
@@ -316,7 +299,3 @@
 ## 11.12 - Project 34: Is Your Device's IP Public or Private?
 
 ## 11.13 - Project 35: Find Information in DNS
-
-```
-
-```

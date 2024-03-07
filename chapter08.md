@@ -102,8 +102,4 @@ Address Data Assembly
 
 ## 08.05 - Project 12: Factorial in Assembly
 
-see `/projects/12/`
-
 ## 08.06 - Project 13: Examining Machine Code
-
-see `/projects/13/`
